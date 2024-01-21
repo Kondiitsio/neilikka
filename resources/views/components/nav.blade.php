@@ -5,7 +5,7 @@
 
             <div class="group relative py-2">
                 <div class="flex items-center justify-between space-x-5 bg-white px-4">
-                    <a href="/tuotteet" class="menu-hover my-2 hover:underline py-2 text-base text-black mx-4">
+                    <a href="/products" class="menu-hover my-2 hover:underline py-2 text-base text-black mx-4">
                         Tuotteet
                     </a>
                 </div>
@@ -37,7 +37,7 @@
             group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
                 <div class="flex flex-col items-center w-full text-base cursor-pointer pt-10 font-semibold">
 
-                    <a href="/tuotteet" class="hover:underline py-4 px-6 w-full">Tuotteet</a>
+                    <a href="/products" class="hover:underline py-4 px-6 w-full">Tuotteet</a>
                     <a href="/myymalat"class="hover:underline py-4 px-6 w-full">Myymälät</a>
                     <a href="/tietoa-meista" class="hover:underline py-4 px-6 w-full">Tietoa meistä</a>
                     <a href="/ota-yhteytta" class="hover:underline py-4 px-6 w-full">Ota yhteyttä</a>

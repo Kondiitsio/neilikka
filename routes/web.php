@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/test', function () {
@@ -24,3 +24,10 @@ Route::get('/test', function () {
 Route::get('/tuotteet', function () {
     return view('tuotteet');
 });
+
+Route::get('/products', function () {
+    return view('products.index');
+});
+Route::resource('products', App\Http\Controllers\ProductController::class);
+
+
