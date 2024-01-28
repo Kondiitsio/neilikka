@@ -1,4 +1,4 @@
-<footer class="bg-white">
+<footer class="bg-white mt-auto">
   <div class="mx-auto container px-8 py-6 md:flex md:items-center md:justify-between lg:px-8">
     <div class="mt-8 md:order-1 md:mt-0">
       <p class="text-center text-sm font-bold leading-5 text-gray-500">Avoinna</p>

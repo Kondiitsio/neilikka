@@ -22,11 +22,10 @@ return new class extends Migration
         });
 
         // Insert some products
-        DB::table('products')->insert([
-            ['name' => 'Product 1', 'description' => 'Description 1', 'price' => 100, 'image' => 'image1.jpg'],
-            ['name' => 'Product 2', 'description' => 'Description 2', 'price' => 200, 'image' => 'image2.jpg'],
-            // Add more products as needed
-        ]);
+        // DB::table('products')->insert([
+        //     ['name' => 'Product 1', 'description' => 'Description 1', 'price' => 100, 'image' => 'lapio.jpg']
+        // ]);
+
     }
 
     /**

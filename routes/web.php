@@ -21,8 +21,8 @@ Route::get('/test', function () {
     return view('test');
 });
 
-Route::get('/tuotteet', function () {
-    return view('tuotteet');
+Route::get('/admin', function () {
+    return view('admin');
 });
 
 Route::get('/products', function () {

@@ -13,11 +13,14 @@
               <div>
 
                   <div class="h-72 w-full overflow-hidden rounded-lg">
-                    <img src="https://images.unsplash.com/photo-1598851418241-f52c34b6e4c3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Front of zip tote bag with white canvas, black canvas straps and handle, and black zipper pulls." class="h-full w-full object-cover object-center">
+                    <img src="{{ asset('images/' . $product->image) }}" alt="{{ $product->name }}" class="h-full w-full object-cover object-center">
                   </div>
                   <div class="relative mt-4">
                     <h3 class="text-sm font-medium text-gray-900">{{ $product->name }}</h3>
                     <p class="mt-1 text-sm text-gray-500">{{ $product->price }}€</p>
+                    @foreach($product->categories as $category)
+                    <p class="mt-1 text-sm text-gray-500">{{ $category->name }}</p>
+                    @endforeach
                   </div>
                 <div class="mt-6">
                   <a href="#" class="flex items-center justify-center rounded-md border border-transparent bg-gray-100 px-8 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200">Lisää ostoskoriin<span class="sr-only">, Lapio</span></a>
